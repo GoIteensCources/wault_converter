@@ -10,23 +10,23 @@ transactions = []
 
 def add_currency(currency, amount):
     """Додає валюту в кошелек або оновлює її баланс."""
-    
+    pass
     
 def convert_currency(from_currency, to_currency, amount):
     """Конвертує суму з однієї валюти в іншу за заданими курсами."""
+    pass
    
-
 def display_wallet():
     """Виводить баланс всіх кошельків."""
-    
+    pass
 
 def log_transaction(description):
     """Логує транзакцію з відміткою часу."""
-   
+    pass
 
 def display_transactions(last=True, count=3):
     """Виводить історію транзакцій."""
-   
+    pass
 
 def reset_wallet():
     """ Скидає всі баланси кошельків."""
@@ -68,4 +68,11 @@ def main_process():
         
     else:
         ...
-        
+
+def test():
+    # test any function
+    pass
+
+# test()
+
+main_process()
