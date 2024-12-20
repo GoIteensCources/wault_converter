@@ -122,41 +122,6 @@ def main_process():
             case _:
                 print("Error. Try again")
 
-def main_process_2():
-    """
-    Імплементація функціоналу спілкування з користувачем
-    """
-    print("\nChoose an option:")
-    print("1. Add currency")
-    print("2. Convert currency")
-    print("3. Display wallet")
-    print("4. Display transactions")
-    print("5. Reset wallet")
-    print("0. Exit")
-
-    choice = input("Enter your choice: ") 
-    
-    if choice == "1":
-        ...
-        
-    elif choice == "2":
-        ...        
-    
-    elif choice == "3":
-        ...
-    
-    elif choice == "4":
-        ...
-            
-    elif choice == "5":
-        ...
-            
-    elif choice == "0":
-        ...
-        
-    else:
-        ...
-
 
 
 def test():
